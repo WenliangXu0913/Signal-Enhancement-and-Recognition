@@ -1,0 +1,11 @@
+%绘制频谱图
+f="D:\研究生一周目\研究生一周目\小论文相关\LOG_DNCNNCavitation-consequence2\LOG_DNCNNCavitation\LOG_DNCNNCavitation\Puresignal\空化.TXT";
+y=importdata(f);
+pwelch(y,hamming(16384),8192,1024,44100);
+%%
+%绘制时程图
+f="D:\研究生一周目\研究生一周目\小论文相关\LOG_DNCNNCavitation-consequence2\LOG_DNCNNCavitation\LOG_DNCNNCavitation\Puresignal\空化.TXT";
+y=importdata(f);
+yt=y(129:224);
+xt=(0:1:95)/44100*1000;
+plot(xt,yt);
