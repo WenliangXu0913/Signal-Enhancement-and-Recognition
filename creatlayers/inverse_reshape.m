@@ -1,0 +1,1 @@
+layer = functionLayer(@(X) reshape(X,[65,65,32,1]),"name",'inverse_reshape');

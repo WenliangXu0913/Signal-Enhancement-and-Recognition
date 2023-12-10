@@ -1,0 +1,1 @@
+layer = functionLayer(@(X1,X2) pagemtimes(X1,X2),"Name",'matrixtimes',"NumInputs",2,"NumOutputs",1);

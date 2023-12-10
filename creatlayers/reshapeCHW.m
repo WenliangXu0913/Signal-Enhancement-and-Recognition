@@ -1,0 +1,1 @@
+layer = functionLayer(@(X) reshape(X,[32,4225]),"name",'reshapeCHW');
